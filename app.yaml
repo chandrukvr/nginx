@@ -1,0 +1,8 @@
+service: nginx-service
+runtime: c
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: .*
+  script: app.app
