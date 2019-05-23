@@ -1,5 +1,5 @@
 service: nginx-service
-runtime: c
+runtime: python27
 api_version: 1
 threadsafe: true
 
