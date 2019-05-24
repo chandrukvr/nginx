@@ -7,6 +7,6 @@ handlers:
 - url: .*
   script: app.app
   
-  libraries:
+libraries:
 - name: flask
   version: "0.12"
